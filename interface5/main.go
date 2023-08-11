@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 type Vehicle interface {
-	Structure() []string // Common Method
+	Structure() []string
 	Speed() string
 }
 
 type Human interface {
-	Structure() []string // Common Method
+	Structure() []string
 	Performance() string
 }
 

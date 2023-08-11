@@ -26,6 +26,6 @@ func (e Emp) PrintSalary(basic int, tax int) int {
 func main() {
 	var e1 Employee
 	e1 = Emp(1)
-	e1.PrintName("John Doe")
-	fmt.Println("Employee Salary:", e1.PrintSalary(25000, 5))
+	e1.PrintName("Diksha")
+	fmt.Println("Employee Salary:", e1.PrintSalary(200000, 5))
 }
