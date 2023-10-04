@@ -1,16 +1,16 @@
 // WAP to find the given string is Palindrome or not
-
 package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
 
 	str := "MadaM"
 
-	// str = strings.ToLower(str)
+	str = strings.ToLower(str)
 
 	strRev := ""
 	for _, v := range str {
